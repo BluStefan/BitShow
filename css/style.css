@@ -1,0 +1,63 @@
+header {
+  position: relative;
+  width: 100%;
+}
+
+.card-img-top:hover {
+  cursor: pointer;
+}
+
+.card-title:hover {
+  cursor: pointer;
+}
+
+#searchList {
+  position: absolute;
+  top: 50px;
+  color: white;
+  background-color: #3a3737;
+  list-style: none;
+  padding-left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+#searchList li {
+  border-bottom: 1px solid black;
+  text-align: left;
+  text-overflow: clip;
+  padding: 10px;
+}
+
+#searchList li:hover {
+  cursor: -webkit-grab;
+  cursor: grab;
+  background-color: yellow;
+  color: black;
+}
+
+.card {
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.errormessage {
+  text-align: center;
+  display: block;
+  background-color: #521717;
+  color: white;
+  font-size: larger;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0;
+  bottom: 0;
+  background-color: #343a40;
+}
+/*# sourceMappingURL=style.css.map */
